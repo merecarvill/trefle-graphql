@@ -1,6 +1,5 @@
-const { ApolloServer, gql } = require('apollo-server');
-const { RESTDataSource } = require('apollo-datasource-rest');
-const https = require('https');
+import { ApolloServer, gql } from 'apollo-server';
+import { RESTDataSource } from 'apollo-datasource-rest';
 
 const typeDefs = gql`
   type Plant {

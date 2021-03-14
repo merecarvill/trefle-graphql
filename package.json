@@ -1,13 +1,16 @@
 {
   "name": "trefle-graphql",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A graphQL wrapper of the Trefle API",
+  "author": {
+    "name": "scarvill91",
+    "url": "https://github.com/scarvill91"
   },
-  "author": "",
   "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "apollo-datasource-rest": "^0.10.0",
     "apollo-server": "^2.21.1",
