@@ -1,4 +1,4 @@
-import { gql } from 'apollo-server';
+import { gql } from "apollo-server"
 
 export const typeDefs = gql`
   type Plant {
@@ -9,4 +9,4 @@ export const typeDefs = gql`
   type Query {
     plants: [Plant]
   }
-`;
+`
